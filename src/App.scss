@@ -1,0 +1,213 @@
+html{
+  color: black;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #e9e9e9;
+  font-family: 'Baloo Da 2', cursive;
+  font-family: Nunito-regular;
+  // font-weight: bold;
+  margin: 0;
+  // position: relative;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                      supported by Chrome, Edge, Opera and Firefox */
+}
+
+#root{
+  position: relative;
+  min-height: 100%;
+}
+
+@font-face {
+  font-family: Nunito-bold;
+  src: url(./fonts/Nunito-Bold.ttf);
+}
+
+@font-face {
+  font-family: Nunito-regular;
+  src: url(./fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nunito-thin;
+  src: url(./fonts/Nunito-Light.ttf);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.main-container{
+  width: auto;
+  display: flex;
+  margin: 200px 50px 0 50px;
+}
+
+
+
+
+
+// Start 1st Css Animation
+
+// End  1st Css Animation
+
+
+// ------------ Start 2nd Css Animation ------------------
+.vertical-divider-first{
+  width: 2px;
+  height: calc(80% - 80px);
+  top: 80px;
+  left: 45%;
+  position: absolute;
+  animation: 4s infinite glow;
+}
+
+.horizontial-divider{
+  // border: 1px solid black;
+  width: 35%;
+  height: 2px;
+  top: 79.8%;
+  left: 10%;
+  position: absolute;
+  animation: 4s infinite glow;
+}
+
+.vertical-divider-second{
+  width: 2px;
+  height: 20%;
+  left: 10%;
+  top: 80%;
+  // border: 1px solid black;
+  position: absolute;
+  animation: 4s infinite glow;
+}
+
+.vertical-divider-first,
+.horizontial-divider,
+.vertical-divider-second{
+  outline: none;
+  /* padding: 1px; */
+  box-shadow: none;
+  background-image: 
+  linear-gradient(#000000, #000000), 
+  linear-gradient(#000000, #000000), 
+  linear-gradient(#000000, #000000), 
+  linear-gradient(#000000, #000000), 
+  
+  linear-gradient(#3fb0ac, #3fb0ac), 
+  linear-gradient(#3fb0ac, #3fb0ac), 
+  linear-gradient(#3fb0ac, #3fb0ac), 
+  linear-gradient(#3fb0ac, #3fb0ac);
+  
+  background-position: 0 0, 0 0, 0 100%, 0 100%, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 0% 3px, 0% 3px, 3px 0%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  background-color:transparent;
+  background-repeat:no-repeat;
+  transition:0.2s linear;
+
+  background-position: 0 100%, 0 0, 0 100%, 100% 0, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  animation: animate 1.4s linear infinite 0.2s;
+}
+
+@keyframes animate {
+  0% {
+  background-position: 0 100%, 0 0, 0 100%, 100% 0, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  }
+  40% {
+  background-position: 0 100%, 100% 0, 100% 100%, 100% 0, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 100% 3px, 0% 3px,3px 100%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  }
+  60% {
+  background-position: 0 100%, 100% 0, 100% 100%, 100% 100%, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 0% 3px, 100% 3px,3px 100%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  }
+  70% {
+  background-position: 0 100%, 100% 0, 0% 100%, 100% 100%, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 100%, 0% 3px, 100% 3px,3px 0%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  }
+  80% {
+  background-position: 0% 0%, 0% 0, 0% 100%, 100% 100%, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 100%, 0% 3px, 0% 3px,3px 0%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  }
+  100% {
+  background-position: 0% 0%, 0 0, 0 100%, 100% 100%, 
+                       0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
+                   3px 100%, 100% 3px, 100% 3px,3px 100%;  
+  }
+}
+
+// ------------ End 2nd Css Animation ------------------
+
+
+
+// ------------ Start 3rd Css Animation ------------------
+
+
+
+// ------------ End 3rd Css Animation ------------------
+
+
+@media only screen and (max-width: 1500px) {
+  .main-container{
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .main-container{
+    display: block;
+    margin: 0;
+  }
+
+  // .vertical-divider-first{
+  //   right: 15%;
+  //   left: unset;
+  //   height: 400px;
+  // }
+
+  // .horizontial-divider{
+  //   width: 75%;
+  //   right: 15%;
+  //   left: unset;
+  //   top: 480px;
+  // }
+
+  // .vertical-divider-second{
+  //   // height: calc(100% - 80px);
+  //   height: 50%;
+  //   left: 10%;
+  //   top: 480px;
+  // }
+
+  .vertical-divider-first,
+  .horizontial-divider,
+  .vertical-divider-second{
+    display: none;
+  }
+
+}

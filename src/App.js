@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// rfce auto function creator
+import React from 'react';
+import {withRouter} from 'react-router';
+
+import './App.scss';
+import Aboutme from './components/Aboutme';
+import Resume from './components/Resume';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="main-container">
+
+        {/* Aboutme Component */}
+        <Aboutme/>
+
+        <div className="vertical-divider-first"></div>  
+        <div className="horizontial-divider"></div>  
+        <div className="vertical-divider-second"></div>  
+
+        {/* Resume Component: contains all resume tabs */}
+        <Resume/>
+      
     </div>
+
   );
 }
 
-export default App;
+export default withRouter(App);
