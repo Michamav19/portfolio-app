@@ -29,7 +29,8 @@ function Footer() {
             <div className="footer-container">
 
                 <div className="footer-text-section">
-                    <span className="footer-text">Designed and Developed by John Doe</span>
+                    {/* <span className="footer-text">Designed and Developed by John Doe</span> */}
+                    <span className="footer-text">&copy; 2021 Michalis Mavromatakis</span>
                 </div>
                 
                 <div className="footer-dots-menu-section">
