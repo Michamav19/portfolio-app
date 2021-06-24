@@ -20,15 +20,15 @@ function Aboutme() {
                 <img src={prof_pic} alt="Profile Picture"></img>
                 <div className="aboutme-main">
                     <Typist>
-                        <span className="profile-surname">John Doe</span>
+                        <span className="profile-surname">Michalis Mavromatakis</span>
                         <br />
                         <span className="profile-title">Full Stack Developer - UI/UX Designer</span>
                     </Typist>
-                    <span className="profile-info">
+                    {/* <span className="profile-info">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </span>
+                    </span> */}
                     
                 </div>
                 <span className="download-resume-btn">
