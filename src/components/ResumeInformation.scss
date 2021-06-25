@@ -332,4 +332,19 @@
     .slick-next{
         display: none !important;
     }
+
+}
+
+
+@media only screen and (max-width: 641px) {
+    .resume-information-icon,
+    .resume-left-main{
+        width: 200px;
+        height: 190px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: unset;
+        text-align: center;
+    }
 }
