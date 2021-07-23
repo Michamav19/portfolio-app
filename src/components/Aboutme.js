@@ -1,6 +1,6 @@
 import React from 'react';
 import './Aboutme.scss';
-import prof_pic from '../images/profile-pic-2.png';
+import prof_pic from '../images/michalis-profile.jpeg';
 import Typist from 'react-typist'; //npm install react-typist --save
 import SocialMedia from './SocialMedia';
 
@@ -38,17 +38,6 @@ function Aboutme() {
 
             {/* Social Media Section */}
             <SocialMedia className="mobile"/>
-
-            {/* <div className="aboutme-footer">
-                <div className="aboutme-footer-container">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fas fa-envelope"></i>
-                </div>
-            </div> */}
-
-            
-            
 
         </div>
     )

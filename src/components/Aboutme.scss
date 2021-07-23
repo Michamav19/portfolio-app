@@ -50,11 +50,11 @@
 }
 
 .aboutme-container img{
-    width: 200px;
-    height: 190px;
+    width: 160px;
+    height: 160px;
     display: inline-block;
-    // float: left;
     border-radius: 2px;
+    box-shadow: 0px 0px 5px -1px #000000a3;
 }
 
 .aboutme-main{
@@ -62,6 +62,8 @@
     display: inline-block;
     // float: left;
     margin-left: 20px;
+    vertical-align: bottom;
+    min-height: 75px;
 }
 
 .aboutme-main-info {
@@ -72,13 +74,13 @@
 
 .profile-surname{
     // display: block;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .profile-title{
     // display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: -10px;
     // margin-bottom: 25px;
@@ -95,7 +97,7 @@
     display: block;
     width: 100%;
     margin-top: 20px;
-    padding-left: 20px;
+    // padding-left: 20px;
 }
 
 .download-resume-btn a{
@@ -103,7 +105,7 @@
     color: #3fb0ac;
     padding: 10px;
     font-weight: bold;
-    box-shadow: 0px 0px 5px -2px #0000004d;
+    box-shadow: 0px 0px 5px -1px #888888;
 }
 
 // .divider{
@@ -162,21 +164,32 @@
     }
 }
 
+// @media only screen and (max-width: 1200px) {
+//     .aboutme-main {
+//         margin-left: 0;
+//     }
+// }
+
 @media only screen and (max-width: 1025px) {
     .aboutme{
         width: 100%;
-        padding: 100px;
+        padding: 100px 5%;
         height: unset;
         position: relative;
     }
 
     .aboutme-main{
+        width: 60%;
         float: unset;
     }
-
-    
 }
 
+
+@media only screen and (max-width: 768px){
+    .profile-surname {
+        font-size: 28px;
+    }
+}
 
 @media only screen and (max-width: 641px) {
     .aboutme-container img{
@@ -184,12 +197,23 @@
         margin-left: auto;
         margin-right: auto;
         float: unset;
+        border-radius: 85px;
     }
 
     .aboutme-main{
         width: 100%;
         text-align: center;
         margin-left: unset;
+        min-height: 60px;
+        margin-top: 10px;
+    }
+
+    .profile-surname {
+        font-size: 25px;
+    }
+
+    .profile-title {
+        font-size: 15px;
     }
 
     .download-resume-btn{

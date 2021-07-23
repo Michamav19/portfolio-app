@@ -12,8 +12,9 @@
     position: fixed;
     height: 20%;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    // padding-top: 25px;
+    // padding-bottom: 25px;
+    z-index: 1000;
 }
 
 .social-media-container a{
@@ -43,6 +44,7 @@
         position: absolute;
         top: 28%;
         right: 5%;
+        z-index: unset;
     }
 
     .social-media-container{
@@ -70,6 +72,7 @@
         width: auto;
         height: auto;
         position: unset;
+        margin-top: 40px;
     }
 
     .social-media-container{

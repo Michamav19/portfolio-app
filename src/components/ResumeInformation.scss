@@ -170,6 +170,7 @@
     width: 65%;
     display: block;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .resume-info-details-secondary-value{
@@ -183,6 +184,7 @@
 .resume-right-info {
 
     .slick-slide{
+        width: 100% !important;
         opacity: 0.5;
         height: 320px;
         position: relative;
@@ -315,7 +317,7 @@
     }
 
     .slick-list{
-        width: 50%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -324,13 +326,26 @@
         width: 30px;
         height: auto;
         position: absolute;
-        top: 45%;
+        // top: 22%;
         right: 6%;
+        top: 50%;
+        /* left: 50%; */
+        transform: translate(-50%, -50%);
+    }
+
+
+    .slick-track{
+        margin-left: 10%;
+        margin-right: 15%;
     }
 
     .slick-prev,
     .slick-next{
         display: none !important;
+    }
+
+    .resume-info-details-secondary-value{
+        width: 90%;
     }
 
 }
@@ -340,11 +355,25 @@
     .resume-information-icon,
     .resume-left-main{
         width: 200px;
-        height: 190px;
+        // height: 190px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        // margin-top: 15px;
         float: unset;
         text-align: center;
+    }
+
+    .resume-left-main{
+        margin-top: 20px;
+    }
+
+    .resume-info-details-value{
+        font-size: 16px;
+    }
+
+    .resume-info-details-secondary-value{
+        width: 100%;
+        font-size: 13px;
     }
 }

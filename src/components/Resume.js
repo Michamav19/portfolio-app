@@ -10,6 +10,29 @@ import 'slick-carousel/slick/slick-theme.css';
 import MagicSliderDots from 'react-magic-slider-dots';
 import 'react-magic-slider-dots/dist/magic-dots.css';
 
+// function SampleNextArrow(props) {
+//     const { className, style, onClick } = props;
+//     return (
+//       <div
+//         className={className}
+//         style={{ ...style, display: "block", background: "red" }}
+//         onClick={onClick}
+//       />
+//     );
+// }
+  
+// function SamplePrevArrow(props) {
+//     const { className, style, onClick } = props;
+//     return (
+//         <div
+//         className={className}
+//         style={{ ...style, display: "block", background: "green" }}
+//         onClick={onClick}
+//         />
+//     );
+// }
+
+
 function Resume() {
 
     // when click resume tab open fancybox
@@ -25,6 +48,9 @@ function Resume() {
         // return num;
     };
 
+
+    
+
     // when click arrow next icon display next section of this resume category
     // const [isDisplay, setIsDisplay] = useState('education-info-1');
 
@@ -33,8 +59,10 @@ function Resume() {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "40px 90px",
+        centerPadding: "0",
         slidesToShow: 3,
+        // prevArrow: <SamplePrevArrow/>,
+        // nextArrow: <SampleNextArrow/>,
         speed: 500,
         // autoplay:true,
 
@@ -42,14 +70,24 @@ function Resume() {
     
         pauseOnHover: true,
         mobileFirst:true,
-        responsive: [{
-            breakpoint: 1500,
-            settings: {
-              slidesToShow: 2
-            //   slidesToScroll: 1
-            //   centerMode: true
+        responsive: [
+            {
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 641,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
             }
-        }]
+        ]
     };
 
     // control resume tabs links

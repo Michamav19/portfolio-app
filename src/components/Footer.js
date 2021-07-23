@@ -32,7 +32,7 @@ function Footer() {
                     {/* <span className="footer-text">Designed and Developed by John Doe</span> */}
                     <span className="footer-text">&copy; 2021 Michalis Mavromatakis</span>
                 </div>
-                
+
                 <div className="footer-dots-menu-section">
                     {/*<Dots length={10} active={0} />*/}
                     {/*<Slider {...settings}>
