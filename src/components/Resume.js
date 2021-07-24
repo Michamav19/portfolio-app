@@ -1,7 +1,6 @@
 import React, {useCallback, useState} from 'react';
 import {useHistory, Link} from 'react-router-dom';
 import './Resume.scss';
-import ResumeFancybox from './ResumeFancybox';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -57,12 +56,11 @@ function Resume() {
     const settings = {
         dots: true,
         className: "center",
-        centerMode: true,
+        centerMode: false,
         infinite: true,
         centerPadding: "0",
         slidesToShow: 3,
-        // prevArrow: <SamplePrevArrow/>,
-        // nextArrow: <SampleNextArrow/>,
+        arrows: false,
         speed: 500,
         // autoplay:true,
 
@@ -74,9 +72,9 @@ function Resume() {
             {
                 breakpoint: 1500,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 1
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
                 }
             },
             {
@@ -182,11 +180,6 @@ function Resume() {
 
                      {/** </div>*/}
                 </Slider>
-
-
-                {/* <ResumeFancybox tabResumeId={counter} open={isOpen} onClose={() => setIsOpen(false)}>
-                    Test
-                </ResumeFancybox> */}
 
             </div>
         </div>

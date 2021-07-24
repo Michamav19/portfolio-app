@@ -322,13 +322,18 @@
         margin-right: auto;
     }
 
+    .resume-container .slick-list{
+        width: 60%;
+    }
+
     .slick-dots{
         width: 30px;
         height: auto;
         position: absolute;
+        display: table !important;
         // top: 22%;
         right: 6%;
-        top: 50%;
+        top: 60%;
         /* left: 50%; */
         transform: translate(-50%, -50%);
     }

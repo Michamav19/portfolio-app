@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect} from 'react';
-import './Resume.scss';
+import '../Resume.scss';
 import './ResumeFancybox.scss';
 // import ReactFancyBox from 'react-fancybox';
 // import 'react-fancybox/lib/fancybox.css';

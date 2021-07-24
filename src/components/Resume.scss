@@ -47,6 +47,7 @@ $resume-title-border-radius: 24px;
 .resume-tab-container{
     width: 180px;
     height: 220px;
+    margin-left: -51px;
     border-radius: $resume-tabs-border-radius;
     background-color: black;
     background-repeat: no-repeat;
@@ -283,7 +284,21 @@ $resume-title-border-radius: 24px;
     }
 }
 
-// Media Queries
+@media only screen and (max-width: 1500px) {
+    .resume-tab-container{
+        width: 150px;
+        height: 180px;
+    }
+
+    .resume-tab-title{
+        font-size: 10px;
+    }
+
+    .view-btn{
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width: 1025px) {
     .resume{
         width: 100%;
@@ -292,9 +307,33 @@ $resume-title-border-radius: 24px;
         padding-bottom: 100px;
     }
 
+    .resume-tab-container{
+        margin-left: -70px;
+    }
+
     .slick-current,
     .slick-clone-current{
         // add whatever animation to the active slide you're doing here
         transform: translateX(-20px);
     }
 }
+
+
+@media only screen and (max-width: 641px) {
+    .resume-tab-container{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .resume-tab-container{
+        margin-left: -16%;
+    }
+}
+
+@media only screen and (max-width: 351px) {
+    .slick-track{
+        transform: translate3d(-8.5%, 0px, 0px) !important;
+    }
+}
+

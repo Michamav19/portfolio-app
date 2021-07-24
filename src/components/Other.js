@@ -19,6 +19,7 @@ function Other() {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
         speed: 500,
         vertical: true,
         verticalSwiping: true
