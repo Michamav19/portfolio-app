@@ -334,10 +334,13 @@
         position: absolute;
         display: table !important;
         // top: 22%;
-        right: 6%;
-        top: 60%;
+        right: 4%;
+        top: 45%;
         /* left: 50%; */
         transform: translate(-50%, -50%);
+        background-color: white;
+        border-radius: 50px;
+        padding: 5px 0px 8px 0;
     }
 
 
@@ -353,6 +356,12 @@
 
     .resume-info-details-secondary-value{
         width: 90%;
+    }
+
+    .resume-right-info {
+        .slick-dots li button:before {
+            font-size: 16px !important;
+        }
     }
 
 }
@@ -386,5 +395,39 @@
     
     .resume-left-info{
         padding: 100px 50px;
+    }
+
+    .resume-info-details-section:last-child{
+        margin-bottom: 255px;
+    }
+
+    .resume-right-info {
+        .slick-slide{
+            height: 325px;
+        }
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .resume-right-info {
+        .slick-slide{
+            height: 340px;
+        }
+    }
+}
+
+@media only screen and (max-width: 351px) {
+    .resume-right-info {
+        .slick-slide{
+            height: 345px;
+        }
+    }
+
+    .resume-info-details-value {
+        font-size: 13px;
+    }
+
+    .resume-info-details-secondary-value {
+        font-size: 11px;
     }
 }

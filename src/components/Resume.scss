@@ -316,6 +316,12 @@ $resume-title-border-radius: 24px;
         // add whatever animation to the active slide you're doing here
         transform: translateX(-20px);
     }
+
+    .resume-container{
+        .slick-dots li button:before{
+            font-size: 16px !important;
+        }
+    }
 }
 
 

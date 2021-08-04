@@ -89,5 +89,9 @@ export const GlobalStyles = createGlobalStyle`
             color: ${({ theme }) => theme.text} !important;
         }
 
+        .slick-dots{
+            background-color: ${({ theme }) => theme.body};
+        }
+
     }
 `

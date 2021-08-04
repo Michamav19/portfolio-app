@@ -86,7 +86,7 @@ function Education() {
                                 Full Stack Developer at KEPYES/GES (Octomber 2020 – June 2021)
                                 </span>
                                 <span className="resume-info-details-secondary-value">
-                                    <b>For my services to the greek military i work as Full-Stack Developer.</b> <br/>
+                                    <b>For my services to the greek military i worked as Full-Stack Developer.</b> <br/>
                                     <b>Front-End:</b> HTML, CSS, SCSS, ReactJs <br/>
                                     <b>Back-end:</b> PHP Symfony <br/>
                                     <b>DataBase:</b> Oracle DB, SQL <br/>  
