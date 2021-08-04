@@ -83,6 +83,7 @@ function Projects() {
                                 </span>
                             </div>
                             <div className="resume-info-details-section">
+                                <span className="resume-info-details-title">Past</span>
                                 <span className="resume-info-details-value">
                                     Development of an information system (implementation and architecture)
                                 </span>
@@ -95,6 +96,7 @@ function Projects() {
                                 </span>
                             </div>
                             <div className="resume-info-details-section">
+                                <span className="resume-info-details-title">Past</span>
                                 <span className="resume-info-details-value">
                                     Product Design "SmartLamp" with IoT technology
                                 </span>

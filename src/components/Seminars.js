@@ -74,6 +74,7 @@ function Seminars() {
                                 </span>
                             </div>
                             <div className="resume-info-details-section">
+                                <span className="resume-info-details-title">E-learning</span>
                                 <span className="resume-info-details-value">
                                     2017-2018: Develop your website - e-learning (kode project by kotsovolos)
                                 </span>
