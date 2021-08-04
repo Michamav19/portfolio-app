@@ -54,7 +54,6 @@ const Routes = () => {
           <Route exact path='/projects' component={Projects}/>
           <Route exact path='/other' component={Other}/>
           <Route exact path='/skills' component={Skills}/>
-          
         </Switch>
 
         {/** Navbar sidebar for tablet-mobile */}
