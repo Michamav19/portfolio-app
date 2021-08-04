@@ -61,21 +61,6 @@ function Education() {
                     {/* <span className="resume-info-title">Bachelor Degree</span> */}
                     <div className="resume-info-details">
                         <Slider {...settings}>
-                            <div className="resume-info-details-section univesrity-section">
-                                <span className="resume-info-details-title">Other</span>
-                                <span className="resume-info-details-value">
-                                    2019 – 2020: Web Design and Front End Developer Expertise - e- learning (EKPA) (9.4/10)
-                                </span>
-                                <span className="resume-info-details-secondary-value">
-                                    In this e-learning program I work in the field of web developing in conjunction with web design.
-                                    For UX Design and UI Design, I dealt with html, css, javascript, jquery and Ajax.
-                                    I also became "obsessed" with wire frames software for designing Prototypes, Axure and Balsamiq.
-                                    Also I was involved with jSF by Oracle and AngularJS. Finally I saw and dealt with Photoshop program.
-                                </span>
-                                <span className="resume-info-details-value">
-                                    2017-2018: Develop your website - e-learning (kode project by kotsovolos)
-                                </span>
-                            </div>
                             <div className="resume-info-details-section department-section">
                                 <span className="resume-info-details-title">University</span>
                                 <span className="resume-info-details-value">2013 – 2018: Department of Management Science and Technology AUEB</span>

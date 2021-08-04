@@ -62,35 +62,20 @@ function Seminars() {
                     <div className="resume-info-details">
                         <Slider {...settings}>
                             <div className="resume-info-details-section">
-                                <span className="resume-info-details-title">Now</span>
+                                <span className="resume-info-details-title">E-learning</span>
                                 <span className="resume-info-details-value">
-                                    Octomber 2020 – May 2021: Full Stack Developer at KEPYES/GES
+                                    2019 – 2020: Web Design and Front End Developer Expertise - e- learning (EKPA) (9.4/10)
                                 </span>
                                 <span className="resume-info-details-secondary-value">
-                                    <b>For my services to the greek military i work as Full-Stack Developer.</b> <br/>
-                                    <b>Front-End:</b> HTML, CSS, SCSS, ReactJs <br/>
-                                    <b>Back-end:</b> PHP Symfony <br/>
-                                    <b>DataBase:</b> Oracle DB, SQL <br/>
-                                    <b>Other:</b> GitLab, Linux <br/>
-                                    <b>Programs:</b> Visual Studio Code, WebStorm, PhpStorm, DataGrip
+                                    In this e-learning program I work in the field of web developing in conjunction with web design.
+                                    For UX Design and UI Design, I dealt with html, css, javascript, jquery and Ajax.
+                                    I also became "obsessed" with wire frames software for designing Prototypes, Axure and Balsamiq.
+                                    Also I was involved with jSF by Oracle and AngularJS. Finally I saw and dealt with Photoshop program.
                                 </span>
                             </div>
                             <div className="resume-info-details-section">
-                                <span className="resume-info-details-title">Past</span>
                                 <span className="resume-info-details-value">
-                                    March 2018 – September 2020: Full Stack Developer – UX/UI Designer at CollegeLink Company
-                                </span>
-                                <span className="resume-info-details-secondary-value">
-                                    Assistant for participants at Web Development Academy vol.2 by Collegelink <br/>
-                                    Assistant for participants at Web Development Academy vol.3 by Collegelink <br/> 
-                                </span>
-                                <span className="resume-info-details-secondary-value">
-                                    <b>For my services to the greek military i work as Full-Stack Developer. </b><br/>
-                                    <b>Front-End:</b> HTML, CSS, Javascript, jQuery <br/>
-                                    <b>Back-end:</b> PHP <br/>
-                                    <b>DataBase:</b> PhpMyAdmin, SQL <br/>
-                                    <b>Other:</b> GitKraken, Windows <br/>
-                                    <b>Programs:</b> Visual Studio Code, Sublime
+                                    2017-2018: Develop your website - e-learning (kode project by kotsovolos)
                                 </span>
                             </div>
                         </Slider>

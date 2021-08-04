@@ -85,6 +85,7 @@
     }
 
     .navbar-btns{
+        height: calc(100% - 80px);
         display: block;
     }
 
@@ -92,6 +93,7 @@
         display: block;
         width: 100%;
         border-bottom: 1px solid #0000000d;
+        height: calc(100%/7);
     }
 
     .navbar-button:first-child{
@@ -101,9 +103,8 @@
     .navbar-button a{
         width: 100%;
         display: block;
-        // padding-left: 30px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        top: 40%;
+        position: relative;
         font-weight: bold;  
         text-align: center;
     }
@@ -114,5 +115,17 @@
 @media only screen and (max-width: 961px){
     .navbar-container{
         display: block;
+
+        .navbar-button a{
+            font-size: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 641px){
+    .navbar-container{
+        .navbar-button a{
+            font-size: 16px;
+        }
     }
 }

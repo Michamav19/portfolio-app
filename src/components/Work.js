@@ -65,21 +65,7 @@ function Education() {
                             <div className="resume-info-details-section">
                                 <span className="resume-info-details-title">Now</span>
                                 <span className="resume-info-details-value">
-                                    Octomber 2020 – May 2021: Full Stack Developer at KEPYES/GES
-                                </span>
-                                <span className="resume-info-details-secondary-value">
-                                    <b>For my services to the greek military i work as Full-Stack Developer.</b> <br/>
-                                    <b>Front-End:</b> HTML, CSS, SCSS, ReactJs <br/>
-                                    <b>Back-end:</b> PHP Symfony <br/>
-                                    <b>DataBase:</b> Oracle DB, SQL <br/>
-                                    <b>Other:</b> GitLab, Linux <br/>
-                                    <b>Programs:</b> Visual Studio Code, WebStorm, PhpStorm, DataGrip
-                                </span>
-                            </div>
-                            <div className="resume-info-details-section">
-                                <span className="resume-info-details-title">Past</span>
-                                <span className="resume-info-details-value">
-                                    March 2018 – September 2020: Full Stack Developer – UX/UI Designer at CollegeLink Company
+                                Full Stack Developer – UX/UI Designer at CollegeLink Company (March 2018 – Now)
                                 </span>
                                 <span className="resume-info-details-secondary-value">
                                     Assistant for participants at Web Development Academy vol.2 by Collegelink <br/>
@@ -89,10 +75,26 @@ function Education() {
                                     <b>Front-End:</b> HTML, CSS, Javascript, jQuery, AJAX <br/>
                                     <b>Back-end:</b> PHP <br/>
                                     <b>DataBase:</b> PhpMyAdmin, SQL <br/>
-                                    <b>Other:</b> GitKraken, Windows <br/>
-                                    <b>Programs:</b> Visual Studio Code, Sublime
+                                    <b>Design Tools:</b> Figma, Axure RP, Photoshop <br/>
+                                    <b>Programs:</b> Visual Studio Code, Sublime <br/> 
+                                    <b>Other:</b> GitKraken, MacOS, Windows 
                                 </span>
                             </div>
+                            <div className="resume-info-details-section">
+                                <span className="resume-info-details-title">Past</span>
+                                <span className="resume-info-details-value">
+                                Full Stack Developer at KEPYES/GES (Octomber 2020 – June 2021)
+                                </span>
+                                <span className="resume-info-details-secondary-value">
+                                    <b>For my services to the greek military i work as Full-Stack Developer.</b> <br/>
+                                    <b>Front-End:</b> HTML, CSS, SCSS, ReactJs <br/>
+                                    <b>Back-end:</b> PHP Symfony <br/>
+                                    <b>DataBase:</b> Oracle DB, SQL <br/>  
+                                    <b>Programs:</b> Visual Studio Code, WebStorm, PhpStorm, DataGrip <br/>  
+                                    <b>Other:</b> GitLab, Linux
+                                </span>
+                            </div>
+                            
                         </Slider>
                     </div>
 

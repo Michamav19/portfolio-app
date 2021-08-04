@@ -86,7 +86,7 @@ function Other() {
                             <div className="resume-info-details-section">
                                 <span className="resume-info-details-title">Military</span>
                                 <span className="resume-info-details-value">
-                                    Military Service: End 8 June 2021
+                                    Military Service: Ended 8 June 2021
                                 </span>
                             </div>
                         </Slider>
