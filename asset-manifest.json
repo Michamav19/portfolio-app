@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.946218b8.chunk.css",
-    "main.js": "./static/js/main.286a4da1.chunk.js",
-    "main.js.map": "./static/js/main.286a4da1.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6197e468.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6197e468.js.map",
-    "static/css/2.ad73f81e.chunk.css": "./static/css/2.ad73f81e.chunk.css",
-    "static/js/2.36c3c380.chunk.js": "./static/js/2.36c3c380.chunk.js",
-    "static/js/2.36c3c380.chunk.js.map": "./static/js/2.36c3c380.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/2.ad73f81e.chunk.css.map": "./static/css/2.ad73f81e.chunk.css.map",
-    "static/css/main.946218b8.chunk.css.map": "./static/css/main.946218b8.chunk.css.map",
-    "static/js/2.36c3c380.chunk.js.LICENSE.txt": "./static/js/2.36c3c380.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "./static/media/Nunito-Regular.e4eb7682.ttf",
-    "static/media/Resume.scss": "./static/media/work-img.f7537d5c.png",
-    "static/media/michalis-profile.5deee742.jpeg": "./static/media/michalis-profile.5deee742.jpeg",
-    "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf"
+    "main.css": "/static/css/main.ae771cae.chunk.css",
+    "main.js": "/static/js/main.286a4da1.chunk.js",
+    "main.js.map": "/static/js/main.286a4da1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.550c5ae6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.550c5ae6.js.map",
+    "static/css/2.921c199c.chunk.css": "/static/css/2.921c199c.chunk.css",
+    "static/js/2.fff1882d.chunk.js": "/static/js/2.fff1882d.chunk.js",
+    "static/js/2.fff1882d.chunk.js.map": "/static/js/2.fff1882d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.921c199c.chunk.css.map": "/static/css/2.921c199c.chunk.css.map",
+    "static/css/main.ae771cae.chunk.css.map": "/static/css/main.ae771cae.chunk.css.map",
+    "static/js/2.fff1882d.chunk.js.LICENSE.txt": "/static/js/2.fff1882d.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Nunito-Regular.e4eb7682.ttf",
+    "static/media/Resume.scss": "/static/media/work-img.f7537d5c.png",
+    "static/media/michalis-profile.5deee742.jpeg": "/static/media/michalis-profile.5deee742.jpeg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.6197e468.js",
-    "static/css/2.ad73f81e.chunk.css",
-    "static/js/2.36c3c380.chunk.js",
-    "static/css/main.946218b8.chunk.css",
+    "static/js/runtime-main.550c5ae6.js",
+    "static/css/2.921c199c.chunk.css",
+    "static/js/2.fff1882d.chunk.js",
+    "static/css/main.ae771cae.chunk.css",
     "static/js/main.286a4da1.chunk.js"
   ]
 }
