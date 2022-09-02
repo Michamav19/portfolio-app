@@ -62,14 +62,12 @@ function Education() {
                     {/* <span className="resume-info-title">Bachelor Degree</span> */}
                     <div className="resume-info-details">
                         <Slider {...settings}>
+
+
                             <div className="resume-info-details-section">
                                 <span className="resume-info-details-title">Now</span>
                                 <span className="resume-info-details-value">
-                                Full Stack Developer – UX/UI Designer at CollegeLink Company (March 2018 – Now)
-                                </span>
-                                <span className="resume-info-details-secondary-value">
-                                    Assistant for participants at Web Development Academy vol.2 by Collegelink <br/>
-                                    Assistant for participants at Web Development Academy vol.3 by Collegelink <br/> 
+                                    Lead Full Stack Developer at CollegeLink Company (July 2018 – Now)
                                 </span>
                                 <span className="resume-info-details-secondary-value">
                                     <b>Front-End:</b> HTML, CSS, Javascript, jQuery, AJAX <br/>
@@ -79,7 +77,19 @@ function Education() {
                                     <b>Programs:</b> Visual Studio Code, Sublime <br/> 
                                     <b>Other:</b> GitKraken, MacOS, Windows 
                                 </span>
+                                <span className="resume-info-details-secondary-value">
+                                    <b>Day to Day Responsibilities:</b><br/>
+                                    - Design and implement full-stack projects<br/>
+                                    - Check team members' task progress<br/>
+                                    - Delegate work and assigments to team members<br/>
+                                    - Weekly meetings with team members for career roadmaps to improve hard & soft skills<br/>
+                                    - Weekly code reviews and QA to team members' tasks<br/>
+                                    - Git & Auto Deployment roadmaps implementations<br/>
+                                    - Write onboarding and technical documentations
+                                </span>
                             </div>
+
+
                             <div className="resume-info-details-section">
                                 <span className="resume-info-details-title">Past</span>
                                 <span className="resume-info-details-value">
@@ -92,6 +102,29 @@ function Education() {
                                     <b>DataBase:</b> Oracle DB, SQL <br/>  
                                     <b>Programs:</b> Visual Studio Code, WebStorm, PhpStorm, DataGrip <br/>  
                                     <b>Other:</b> GitLab, Linux
+                                </span>
+                            </div>
+                            <div className="resume-info-details-section">
+                                <span className="resume-info-details-title">Now</span>
+                                <span className="resume-info-details-value">
+                                    Assistant for participants at CollegeLink Web Development Academies
+                                </span>
+                                <span className="resume-info-details-secondary-value">
+                                    Assistant for participants at Web Development Academy vol.2 by Collegelink <br/>
+                                    Assistant for participants at Web Development Academy vol.3 by Collegelink <br/> 
+                                </span>
+                            </div>
+                            <div className="resume-info-details-section">
+                                <span className="resume-info-details-title">Now</span>
+                                <span className="resume-info-details-value">
+                                    Intern Full Stack Developer at CollegeLink Company (March 2018 – July 2018)
+                                </span>
+                                <span className="resume-info-details-secondary-value">
+                                    <b>Front-End:</b> HTML, CSS, Javascript, jQuery, AJAX <br/>
+                                    <b>Back-end:</b> PHP <br/>
+                                    <b>DataBase:</b> PhpMyAdmin, SQL <br/>
+                                    <b>Programs:</b> Sublime <br/> 
+                                    <b>Other:</b> GitKraken, Windows 
                                 </span>
                             </div>
                             

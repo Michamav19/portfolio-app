@@ -22,7 +22,7 @@ function Aboutme() {
                     <Typist>
                         <span className="profile-surname">Michalis Mavromatakis</span>
                         <br />
-                        <span className="profile-title">Full Stack Developer - UI/UX Designer</span>
+                        <span className="profile-title">Lead Full Stack Developer</span>
                     </Typist>
                     {/* <span className="profile-info">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
