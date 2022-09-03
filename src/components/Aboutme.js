@@ -32,7 +32,7 @@ function Aboutme() {
                     
                 </div>
                 <span className="download-resume-btn">
-                    <a href="/files/Mavromatakis-resume.pdf" download>Download Resume</a>
+                    <a href="/files/Michalis-Mavromatakis-resume.pdf" download>Download Resume</a>
                 </span>
             </div>
 
