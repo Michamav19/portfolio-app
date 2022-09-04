@@ -67,15 +67,7 @@ function Education() {
                             <div className="resume-info-details-section">
                                 <span className="resume-info-details-title">Now</span>
                                 <span className="resume-info-details-value">
-                                    Lead Full Stack Developer at CollegeLink Company (July 2018 – Now)
-                                </span>
-                                <span className="resume-info-details-secondary-value">
-                                    <b>Front-End:</b> HTML, CSS, Javascript, jQuery, AJAX <br/>
-                                    <b>Back-end:</b> PHP <br/>
-                                    <b>DataBase:</b> PhpMyAdmin, SQL <br/>
-                                    <b>Design Tools:</b> Figma, Axure RP, Photoshop <br/>
-                                    <b>Programs:</b> Visual Studio Code, Sublime <br/> 
-                                    <b>Other:</b> GitKraken, MacOS, Windows 
+                                    Lead Full Stack Developer at CollegeLink Company (June 2021 – Now)
                                 </span>
                                 <span className="resume-info-details-secondary-value">
                                     <b>Day to Day Responsibilities:</b><br/>
@@ -117,14 +109,15 @@ function Education() {
                             <div className="resume-info-details-section">
                                 <span className="resume-info-details-title">Now</span>
                                 <span className="resume-info-details-value">
-                                    Intern Full Stack Developer at CollegeLink Company (March 2018 – July 2018)
+                                    Full Stack Developer at CollegeLink Company (March 2018 – September 2020)
                                 </span>
                                 <span className="resume-info-details-secondary-value">
                                     <b>Front-End:</b> HTML, CSS, Javascript, jQuery, AJAX <br/>
                                     <b>Back-end:</b> PHP <br/>
                                     <b>DataBase:</b> PhpMyAdmin, SQL <br/>
-                                    <b>Programs:</b> Sublime <br/> 
-                                    <b>Other:</b> GitKraken, Windows 
+                                    <b>Design Tools:</b> Figma, Axure RP, Photoshop <br/>
+                                    <b>Programs:</b> Visual Studio Code, Sublime <br/> 
+                                    <b>Other:</b> GitKraken, MacOS, Windows 
                                 </span>
                             </div>
                             
