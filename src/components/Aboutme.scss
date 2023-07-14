@@ -1,0 +1,226 @@
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes fadeOutIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.aboutme{
+    width: 50%;
+    height: 450px;
+    position: relative;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+}
+
+.aboutme-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutme-container img{
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    border-radius: 85px 85px 3px 85px;
+    box-shadow: 0px 0px 5px -1px #000000a3;
+}
+
+.aboutme-main{
+    width: 50%;
+    display: inline-block;
+    // float: left;
+    margin-left: 20px;
+    vertical-align: bottom;
+    min-height: 75px;
+}
+
+.aboutme-main-info {
+    // border-bottom: 1px solid #b9b9b9;
+    // padding-bottom: 25px;
+    // margin-bottom: 25px;
+}
+
+.profile-surname{
+    // display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.profile-title{
+    // display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -10px;
+    // margin-bottom: 25px;
+}
+
+.profile-info{
+    display: block;
+    font-size: 15px;
+    -webkit-animation: fadeOutIn 6s;
+    animation: fadeOutIn 6s;  
+}
+
+.download-resume-btn{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    // padding-left: 20px;
+}
+
+.download-resume-btn a{
+    border: 2px solid #3fb0ac;
+    color: #3fb0ac;
+    padding: 10px;
+    font-weight: 400;
+    box-shadow: 0px 0px 5px -1px #888888;
+}
+
+// .divider{
+//     border: 1px solid #424242;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+// }
+
+// .secondary-info-title{
+//     width: 50%;
+//     display: inline-block;
+// }
+
+// .aboutme-footer{
+//     width: 100%;
+//     height: 75px;
+//     background-color: #3FB0AC;
+//     bottom: 0;
+//     position: absolute;
+// }
+
+// .aboutme-footer-container{
+//     width: 20%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-top: 25px;
+// }
+
+// .aboutme-footer-container i{
+//     width: 33%;
+//     color: white;
+//     text-align: center;
+// }
+
+
+// Media Queries
+@media only screen and (max-width: 1500px) {
+    .aboutme-container{
+        width: 100%;
+    }
+
+    .aboutme-main{
+        width: 40%;
+    }
+
+    .profile-surname{
+        font-size: 30px;
+    }
+    
+    .profile-title{
+        font-size: 16px;
+    }
+    
+    .profile-info{
+        font-size: 14px;
+    }
+}
+
+// @media only screen and (max-width: 1200px) {
+//     .aboutme-main {
+//         margin-left: 0;
+//     }
+// }
+
+@media only screen and (max-width: 1025px) {
+    .aboutme{
+        width: 100%;
+        padding: 100px 5%;
+        height: unset;
+        position: relative;
+    }
+
+    .aboutme-main{
+        width: 60%;
+        float: unset;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .profile-surname {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+    .aboutme-container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: unset;
+        border-radius: 85px;
+    }
+
+    .aboutme-main{
+        width: 100%;
+        text-align: center;
+        margin-left: unset;
+        min-height: 60px;
+        margin-top: 10px;
+    }
+
+    .profile-surname {
+        font-size: 25px;
+    }
+
+    .profile-title {
+        font-size: 15px;
+    }
+
+    .download-resume-btn{
+        padding-left: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+}
