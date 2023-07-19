@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import { Router } from "react-router";
-import { createBrowserHistory } from "history";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
-// import { Route, Switch } from "react-router";
-
 import App from "./App";
 import Header from "./components/Header";
 import Education from "./components/Education";
@@ -22,14 +18,7 @@ import { lightTheme, darkTheme } from "./components/Theme";
 import { GlobalStyles } from "./components/DynamicThemeChange";
 
 const Routing = () => {
-  const [theme, setTheme] = useState("light");
-
-  const history = createBrowserHistory();
-
-  let [state, setState] = React.useState({
-    action: history.action,
-    location: history.location,
-  });
+  const [theme, setTheme] = React.useState("light");
 
   // The function that toggles between themes
   const changeTheme = () => {
@@ -42,19 +31,10 @@ const Routing = () => {
     }
   };
 
-  React.useLayoutEffect(() => history.listen(setState), [history]);
-
   return (
-    // <Router
-    //   location={state.location}
-    //   navigationType={state.action}
-    //   navigator={history}
-    // >
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
-
       <Header changeTheme={changeTheme} />
-
       <Routes>
         {" "}
         {/* The Switch decides which component to show based on the current URL.*/}
@@ -66,17 +46,13 @@ const Routing = () => {
         <Route path="/other" element={<Other />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
-
       {/** Navbar sidebar for tablet-mobile */}
       <Navbar />
-
       {/* Social Media Section */}
       <SocialMedia className="desktop" />
-
       {/* Footer Component */}
       <Footer />
     </ThemeProvider>
-    // </Router>
   );
 };
 
