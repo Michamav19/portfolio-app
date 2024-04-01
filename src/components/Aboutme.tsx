@@ -1,6 +1,6 @@
 import React from "react";
 import "./Aboutme.scss";
-import prof_pic from "../images/michalis-profile.jpeg";
+import prof_pic from "../images/michalis-profile-photo.png";
 import Typist from "react-typist"; //npm install react-typist --save
 import SocialMedia from "./SocialMedia";
 
@@ -32,7 +32,7 @@ function Aboutme() {
                     </span> */}
         </div>
         <span className="download-resume-btn">
-          <a href="/files/Mavromatakis-resume.pdf" download>
+          <a href="/files/MichalisMavromatakisResume.pdf" download>
             Download Resume
           </a>
         </span>
