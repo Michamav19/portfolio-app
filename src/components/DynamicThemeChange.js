@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
     *,
@@ -26,15 +26,19 @@ export const GlobalStyles = createGlobalStyle`
     .horizontial-divider,
     .vertical-divider-second{
         background-image: 
-        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) => theme.text}), 
-        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) => theme.text}), 
-        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) => theme.text}), 
-        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) => theme.text}), 
+        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) =>
+  theme.text}), 
+        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) =>
+  theme.text}), 
+        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) =>
+  theme.text}), 
+        linear-gradient(${({ theme }) => theme.text}, ${({ theme }) =>
+  theme.text}), 
         
-        linear-gradient(#3fb0ac, #3fb0ac), 
-        linear-gradient(#3fb0ac, #3fb0ac), 
-        linear-gradient(#3fb0ac, #3fb0ac), 
-        linear-gradient(#3fb0ac, #3fb0ac);
+        linear-gradient(#4973b3, #4973b3), 
+        linear-gradient(#4973b3, #4973b3), 
+        linear-gradient(#4973b3, #4973b3), 
+        linear-gradient(#4973b3, #4973b3);
     }
 
     .footer-container{
@@ -94,4 +98,4 @@ export const GlobalStyles = createGlobalStyle`
         }
 
     }
-`
+`;

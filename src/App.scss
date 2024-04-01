@@ -1,4 +1,4 @@
-html{
+html {
   color: black;
   height: 100%;
 }
@@ -6,7 +6,7 @@ html{
 body {
   height: 100%;
   background: #e9e9e9;
-  font-family: 'Baloo Da 2', cursive;
+  font-family: "Baloo Da 2", cursive;
   font-family: Nunito-regular;
   // font-weight: bold;
   margin: 0;
@@ -21,7 +21,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-#root{
+#root {
   position: relative;
   min-height: 100%;
 }
@@ -41,25 +41,23 @@ body {
   src: url(./fonts/Nunito-Light.ttf);
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
 }
 
-.main-container{
+.main-container {
   width: auto;
   display: flex;
   margin: 200px 50px 0 50px;
 }
 
-
 // Start 1st Css Animation
 
 // End  1st Css Animation
 
-
 // ------------ Start 2nd Css Animation ------------------
-.vertical-divider-first{
+.vertical-divider-first {
   width: 2px;
   height: calc(80% - 79.5px);
   top: 80px;
@@ -68,7 +66,7 @@ a{
   animation: 4s infinite glow;
 }
 
-.horizontial-divider{
+.horizontial-divider {
   // border: 1px solid black;
   width: 35.1%;
   height: 2px;
@@ -78,7 +76,7 @@ a{
   animation: 4s infinite glow;
 }
 
-.vertical-divider-second{
+.vertical-divider-second {
   width: 2px;
   height: 20%;
   left: 10%;
@@ -90,94 +88,80 @@ a{
 
 .vertical-divider-first,
 .horizontial-divider,
-.vertical-divider-second{
+.vertical-divider-second {
   outline: none;
   /* padding: 1px; */
   box-shadow: none;
-  background-image: 
-  linear-gradient(#000000, #000000), 
-  linear-gradient(#000000, #000000), 
-  linear-gradient(#000000, #000000), 
-  linear-gradient(#000000, #000000), 
-  
-  linear-gradient(#3fb0ac, #3fb0ac), 
-  linear-gradient(#3fb0ac, #3fb0ac), 
-  linear-gradient(#3fb0ac, #3fb0ac), 
-  linear-gradient(#3fb0ac, #3fb0ac);
-  
-  background-position: 0 0, 0 0, 0 100%, 0 100%, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 0%, 0% 3px, 0% 3px, 3px 0%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;
-  background-color:transparent;
-  background-repeat:no-repeat;
-  transition:0.2s linear;
+  background-image: linear-gradient(#000000, #000000),
+    linear-gradient(#000000, #000000), linear-gradient(#000000, #000000),
+    linear-gradient(#000000, #000000), linear-gradient(#4973b3, #4973b3),
+    linear-gradient(#4973b3, #4973b3), linear-gradient(#4973b3, #4973b3),
+    linear-gradient(#4973b3, #4973b3);
 
-  background-position: 0 100%, 0 0, 0 100%, 100% 0, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+  background-position: 0 0, 0 0, 0 100%, 0 100%, 0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 0% 3px, 0% 3px, 3px 0%, 3px 100%, 100% 3px, 100% 3px,
+    3px 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  transition: 0.2s linear;
+
+  background-position: 0 100%, 0 0, 0 100%, 100% 0, 0 0, 0 0, 0 100%, 100% 0;
+  background-size: 3px 0%, 100% 3px, 0% 3px, 3px 0%, 3px 100%, 100% 3px,
+    100% 3px, 3px 100%;
   animation: animate 1.4s linear infinite 0.2s;
 }
 
 @keyframes animate {
   0% {
-  background-position: 0 100%, 0 0, 0 100%, 100% 0, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+    background-position: 0 100%, 0 0, 0 100%, 100% 0, 0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 0%, 100% 3px, 0% 3px, 3px 0%, 3px 100%, 100% 3px,
+      100% 3px, 3px 100%;
   }
   40% {
-  background-position: 0 100%, 100% 0, 100% 100%, 100% 0, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 0%, 100% 3px, 0% 3px,3px 100%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+    background-position: 0 100%, 100% 0, 100% 100%, 100% 0, 0 0, 0 0, 0 100%,
+      100% 0;
+    background-size: 3px 0%, 100% 3px, 0% 3px, 3px 100%, 3px 100%, 100% 3px,
+      100% 3px, 3px 100%;
   }
   60% {
-  background-position: 0 100%, 100% 0, 100% 100%, 100% 100%, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 0%, 0% 3px, 100% 3px,3px 100%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+    background-position: 0 100%, 100% 0, 100% 100%, 100% 100%, 0 0, 0 0, 0 100%,
+      100% 0;
+    background-size: 3px 0%, 0% 3px, 100% 3px, 3px 100%, 3px 100%, 100% 3px,
+      100% 3px, 3px 100%;
   }
   70% {
-  background-position: 0 100%, 100% 0, 0% 100%, 100% 100%, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 100%, 0% 3px, 100% 3px,3px 0%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+    background-position: 0 100%, 100% 0, 0% 100%, 100% 100%, 0 0, 0 0, 0 100%,
+      100% 0;
+    background-size: 3px 100%, 0% 3px, 100% 3px, 3px 0%, 3px 100%, 100% 3px,
+      100% 3px, 3px 100%;
   }
   80% {
-  background-position: 0% 0%, 0% 0, 0% 100%, 100% 100%, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 100%, 0% 3px, 0% 3px,3px 0%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;
+    background-position: 0% 0%, 0% 0, 0% 100%, 100% 100%, 0 0, 0 0, 0 100%,
+      100% 0;
+    background-size: 3px 100%, 0% 3px, 0% 3px, 3px 0%, 3px 100%, 100% 3px,
+      100% 3px, 3px 100%;
   }
   100% {
-  background-position: 0% 0%, 0 0, 0 100%, 100% 100%, 
-                       0 0, 0 0, 0 100%, 100% 0;
-  background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
-                   3px 100%, 100% 3px, 100% 3px,3px 100%;  
+    background-position: 0% 0%, 0 0, 0 100%, 100% 100%, 0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 0%, 100% 3px, 0% 3px, 3px 0%, 3px 100%, 100% 3px,
+      100% 3px, 3px 100%;
   }
 }
 
 // ------------ End 2nd Css Animation ------------------
 
-
-
 // ------------ Start 3rd Css Animation ------------------
-
-
 
 // ------------ End 3rd Css Animation ------------------
 
-
 @media only screen and (max-width: 1500px) {
-  .main-container{
+  .main-container {
     margin-top: 150px;
   }
 }
 
 @media only screen and (max-width: 1025px) {
-  .main-container{
+  .main-container {
     display: block;
     margin: 0;
   }
@@ -204,8 +188,7 @@ a{
 
   .vertical-divider-first,
   .horizontial-divider,
-  .vertical-divider-second{
+  .vertical-divider-second {
     display: none;
   }
-
 }

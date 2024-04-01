@@ -1,99 +1,117 @@
-
 $resume-tabs-border-radius: 25px;
 $resume-title-border-radius: 24px;
 
 @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.resume{
-    width: 50%;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.resume .link-tab{
-    outline: none;
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.resume-tab{
-    width: 180px;
-    height: 220px;
-    display: inline-block;
-    margin-right: 30px;
-    outline: none;
-    pointer-events: none;
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.resume-tab-container{
-    width: 180px;
-    height: 220px;
-    margin-left: -51px;
-    border-radius: $resume-tabs-border-radius;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
-    padding: 0;
-    box-shadow: 0px 0px 5px -2px black;
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.education-tab{
-    background-image: url("../images/education-img.jpeg");
+.resume {
+  width: 50%;
 }
 
-.work-tab{
-    background-image: url("../images/work-img.png");
+.resume .link-tab {
+  outline: none;
 }
 
-.seminar-tab{
-    background-image: url("../images/seminar-img.png");
+.resume-tab {
+  width: 180px;
+  height: 220px;
+  display: inline-block;
+  margin-right: 30px;
+  outline: none;
+  pointer-events: none;
 }
 
-.project-tab{
-    background-image: url("../images/project-img.jpeg");
+.resume-tab-container {
+  width: 180px;
+  height: 220px;
+  margin-left: -51px;
+  border-radius: $resume-tabs-border-radius;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  padding: 0;
+  box-shadow: 0px 0px 5px -2px black;
 }
 
-.language-tab{
-    background-image: url("../images/language-img.jpg");
+.education-tab {
+  background-image: url("../images/education-img.jpeg");
 }
 
-.skills-tab{
-    background-image: url("../images/skills-img.jpg");
+.work-tab {
+  background-image: url("../images/work-img.png");
 }
 
+.seminar-tab {
+  background-image: url("../images/seminar-img.png");
+}
 
-.resume-tab-container::before{
-    width: 100%;
-    height: 100%;
-    /* background: linear-gradient( rgba(255,255,255,0.0), rgba(0,0,0,0.9) ); */
-    content: '';
-    position: absolute;
-    background-color: black;
-    opacity: 0.6;
-    border-radius: $resume-title-border-radius;
-    z-index: 0;
+.project-tab {
+  background-image: url("../images/project-img.jpeg");
+}
+
+.language-tab {
+  background-image: url("../images/language-img.jpg");
+}
+
+.skills-tab {
+  background-image: url("../images/skills-img.jpg");
+}
+
+.resume-tab-container::before {
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient( rgba(255,255,255,0.0), rgba(0,0,0,0.9) ); */
+  content: "";
+  position: absolute;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: $resume-title-border-radius;
+  z-index: 0;
 }
 
 // .resume-tab:hover{
@@ -106,240 +124,234 @@ $resume-title-border-radius: 24px;
 //     }
 // }
 
-.resume-tab-title{
-    display: inline-block;
-    background-color: white;
-    color: black;
-    border-top-left-radius: $resume-title-border-radius;
-    border-bottom-right-radius: $resume-title-border-radius;
-    width: 50%;
-    height: 40px;
-    font-size: 11px;
-    text-align: center;
+.resume-tab-title {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border-top-left-radius: $resume-title-border-radius;
+  border-bottom-right-radius: $resume-title-border-radius;
+  width: 50%;
+  height: 40px;
+  font-size: 11px;
+  text-align: center;
 }
 
-.tab-title{
-    padding-top: 13px;
-    display: block;
-    text-transform: uppercase;
+.tab-title {
+  padding-top: 13px;
+  display: block;
+  text-transform: uppercase;
 }
 
-
-.resume-tab-view-btn{
-    width: 50%;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
+.resume-tab-view-btn {
+  width: 50%;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
 }
 
-.view-btn{
-    display: block;
-    color: white;
-    font-size: 14px;
+.view-btn {
+  display: block;
+  color: white;
+  font-size: 14px;
 }
 
 // Start: Carousel Resume Tabs CSS
-.resume-container{
-    .slick-current .resume-tab{
-        transform: scale(1.1);
-        cursor: pointer;
-        pointer-events: auto;
-    }
+.resume-container {
+  .slick-current .resume-tab {
+    transform: scale(1.1);
+    cursor: pointer;
+    pointer-events: auto;
+  }
 
-    .slick-current .resume-tab{
-        .resume-tab-container::before{
-            opacity: 0.2;
-            z-index: -1;
-        }
+  .slick-current .resume-tab {
+    .resume-tab-container::before {
+      opacity: 0.2;
+      z-index: -1;
     }
+  }
 
-    .slick-dots li button:before{
-        font-size: 12px !important;
-    }
+  .slick-dots li button:before {
+    font-size: 12px !important;
+  }
 
-    .slick-slide{
-        outline: none;
-        // width: 100% !important;
-    }
+  .slick-slide {
+    outline: none;
+    // width: 100% !important;
+  }
 
-    .slick-list{
-        padding: 40px 90px !important;
-        animation: fadeIn ease 2s;
-        -webkit-animation: fadeIn ease 2s;
-    }
+  .slick-list {
+    padding: 40px 90px !important;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+  }
 
-    .slick-prev:before,
-    .slick-next:before{
-        content: "" !important;
-        display: inline-block;
-        width: 0.8em;
-        height: 0.8em;
-        border-right: 0.15em solid white;
-        border-top: 0.15em solid white;
-    }
+  .slick-prev:before,
+  .slick-next:before {
+    content: "" !important;
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border-right: 0.15em solid white;
+    border-top: 0.15em solid white;
+  }
 
-    .slick-prev:before{
-        transform: rotate(225deg);
-    }
+  .slick-prev:before {
+    transform: rotate(225deg);
+  }
 
-    .slick-next:before{
-        transform: rotate(45deg);
-    }
+  .slick-next:before {
+    transform: rotate(45deg);
+  }
 
-    // .slick-prev:before, .slick-next:before{
-    //     color: black;
-    // }
+  // .slick-prev:before, .slick-next:before{
+  //     color: black;
+  // }
 }
 
 // End: Carousel Resume Tabs CSS
 
-.fancybox-tab{
-    width: 1000px;
-    background-color: #3fb0ac;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px -2px black;
-    color: white;
-    position: relative;
-    overflow: hidden;
+.fancybox-tab {
+  width: 1000px;
+  background-color: #2d476d;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px -2px black;
+  color: white;
+  position: relative;
+  overflow: hidden;
 }
 
-.fancybox-title{
-    width: 12%;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: #3fb0ac;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 2px 7px -3px;
+.fancybox-title {
+  width: 12%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2d476d;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 2px 7px -3px;
 }
 
-
-.fancybox-container{
-    padding: 15px 30px 30px 30px; 
+.fancybox-container {
+  padding: 15px 30px 30px 30px;
 }
 
-.resume-info-title{
-    font-size: 22px;
-    margin-bottom: 30px;
-    display: block;
+.resume-info-title {
+  font-size: 22px;
+  margin-bottom: 30px;
+  display: block;
 }
 
-.resume-container-next{
-    vertical-align: middle;
-    /* line-height: 100px; */
-    top: 0;
-    font-size: 2em;
-    margin-top: -35%;
-    margin-left: 24px;
-    cursor: pointer;
+.resume-container-next {
+  vertical-align: middle;
+  /* line-height: 100px; */
+  top: 0;
+  font-size: 2em;
+  margin-top: -35%;
+  margin-left: 24px;
+  cursor: pointer;
 }
 
-.education-icon{
-    position: absolute;
-    top: 22%;
-    right: 0;
-    font-size: 19em;
-    right: -110px;
-    transform: rotate(18deg);
-    filter: brightness(0.5);
-    opacity: 0.8;
+.education-icon {
+  position: absolute;
+  top: 22%;
+  right: 0;
+  font-size: 19em;
+  right: -110px;
+  transform: rotate(18deg);
+  filter: brightness(0.5);
+  opacity: 0.8;
 }
-
 
 // Media Queries
 @media only screen and (min-width: 1025px) {
+  .slick-slider {
+    position: unset !important;
+  }
 
-    .slick-slider{
-        position: unset !important;
-    }
+  .slick-prev {
+    // left: 25px !important;
+    bottom: 20px !important;
+    z-index: 1 !important;
+    left: 67% !important;
+    position: fixed !important;
+    top: unset !important;
+  }
 
-    .slick-prev{
-        // left: 25px !important;
-        bottom: 20px !important;
-        z-index: 1 !important;
-        left: 67% !important;
-        position: fixed !important;
-        top: unset !important;
-    }
+  .slick-next {
+    // right: 25px !important;
+    right: 0 !important;
+    bottom: 20px !important;
+    right: 20.5% !important;
+    z-index: 1 !important;
+    position: fixed !important;
+    top: unset !important;
+  }
 
-    .slick-next{
-        // right: 25px !important;
-        right: 0 !important;
-        bottom: 20px !important;
-        right: 20.5% !important;
-        z-index: 1 !important;
-        position: fixed !important;
-        top: unset !important;
-    }
-
-    .slick-dots{
-        z-index: 1 !important;
-        right: 22% !important;
-        bottom: 30px !important;
-        width: auto !important;
-        position: fixed !important;
-    }
+  .slick-dots {
+    z-index: 1 !important;
+    right: 22% !important;
+    bottom: 30px !important;
+    width: auto !important;
+    position: fixed !important;
+  }
 }
 
 @media only screen and (max-width: 1500px) {
-    .resume-tab-container{
-        width: 150px;
-        height: 180px;
-    }
+  .resume-tab-container {
+    width: 150px;
+    height: 180px;
+  }
 
-    .resume-tab-title{
-        font-size: 10px;
-    }
+  .resume-tab-title {
+    font-size: 10px;
+  }
 
-    .view-btn{
-        font-size: 13px;
-    }
+  .view-btn {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 1025px) {
-    .resume{
-        width: 100%;
-        background-color: #212121;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+  .resume {
+    width: 100%;
+    background-color: #212121;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    .resume-tab-container{
-        margin-left: -70px;
-    }
+  .resume-tab-container {
+    margin-left: -70px;
+  }
 
-    .slick-current,
-    .slick-clone-current{
-        // add whatever animation to the active slide you're doing here
-        transform: translateX(-20px);
-    }
+  .slick-current,
+  .slick-clone-current {
+    // add whatever animation to the active slide you're doing here
+    transform: translateX(-20px);
+  }
 
-    .resume-container{
-        .slick-dots li button:before{
-            font-size: 16px !important;
-        }
+  .resume-container {
+    .slick-dots li button:before {
+      font-size: 16px !important;
     }
+  }
 }
 
-
 @media only screen and (max-width: 641px) {
-    .resume-tab-container{
-        margin-left: 0;
-    }
+  .resume-tab-container {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 441px) {
-    .resume-tab-container{
-        margin-left: -16%;
-    }
+  .resume-tab-container {
+    margin-left: -16%;
+  }
 }
 
 @media only screen and (max-width: 351px) {
-    .slick-track{
-        transform: translate3d(-8.5%, 0px, 0px) !important;
-    }
+  .slick-track {
+    transform: translate3d(-8.5%, 0px, 0px) !important;
+  }
 }
-
