@@ -1,96 +1,94 @@
-.fancybox{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    // background-color: #FFF;
-    padding: 50px;
-    z-index: 1000;
+.fancybox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // background-color: #FFF;
+  padding: 50px;
+  z-index: 1000;
 }
 
-
-.overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .7);
-    z-index: 1000;
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
 }
 
-.fancybox-insider{
-    position: relative;
+.fancybox-insider {
+  position: relative;
 }
 
-.fancybox-close-btn{
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: -12px;
-    z-index: 1;
-    right: -13px;
-    border: 2px solid black;
-    background-color: white;
-    border-radius: 20px;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
+.fancybox-close-btn {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -12px;
+  z-index: 1;
+  right: -13px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
 }
 
 // Start: Css code for resume fancybox tabs
-.fancybox-tab{
-    width: 1000px;
-    background-color: #3fb0ac;
-    border-radius: 6px;
-    box-shadow: 0px 0px 5px -2px black;
-    color: white;
-    position: relative;
-    overflow: hidden;
+.fancybox-tab {
+  width: 1000px;
+  background-color: #2d476d;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px -2px black;
+  color: white;
+  position: relative;
+  overflow: hidden;
 }
 
-.fancybox-title{
-    width: 12%;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: #3fb0ac;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 2px 7px -3px;
+.fancybox-title {
+  width: 12%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2d476d;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 2px 7px -3px;
 }
 
-
-.fancybox-container{
-    padding: 15px 30px 30px 30px; 
+.fancybox-container {
+  padding: 15px 30px 30px 30px;
 }
 
-.resume-info-title{
-    font-size: 22px;
-    margin-bottom: 30px;
-    display: block;
+.resume-info-title {
+  font-size: 22px;
+  margin-bottom: 30px;
+  display: block;
 }
 
-.resume-container-next{
-    vertical-align: middle;
-    /* line-height: 100px; */
-    top: 0;
-    font-size: 2em;
-    margin-top: -35%;
-    margin-left: 24px;
-    cursor: pointer;
+.resume-container-next {
+  vertical-align: middle;
+  /* line-height: 100px; */
+  top: 0;
+  font-size: 2em;
+  margin-top: -35%;
+  margin-left: 24px;
+  cursor: pointer;
 }
 
-.education-icon{
-    position: absolute;
-    top: 22%;
-    right: 0;
-    font-size: 19em;
-    right: -110px;
-    transform: rotate(18deg);
-    filter: brightness(0.5);
-    opacity: 0.8;
+.education-icon {
+  position: absolute;
+  top: 22%;
+  right: 0;
+  font-size: 19em;
+  right: -110px;
+  transform: rotate(18deg);
+  filter: brightness(0.5);
+  opacity: 0.8;
 }
 // End: Css code for resume fancybox tabs
