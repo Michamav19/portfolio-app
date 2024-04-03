@@ -4,6 +4,7 @@ import Typist from "react-typist"; //npm install react-typist --save
 import "../App.scss";
 import "./ResumeInformation.scss";
 import SocialMedia from "./SocialMedia";
+import "./Work.scss";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -60,9 +61,11 @@ function Education() {
             <Slider {...settings}>
               <div className="resume-info-details-section">
                 <span className="resume-info-details-title">Now</span>
+                <span className="resume-info-details-chip flexcar-chip">
+                  FlexCar
+                </span>
                 <span className="resume-info-details-value">
-                  Senior Full Stack Developer at FlexCar Company (December 2022
-                  – Now)
+                  Senior Full Stack Developer (December 2022 – Now)
                 </span>
                 <span className="resume-info-details-secondary-value">
                   <b>Day to Day Responsibilities:</b>
@@ -81,9 +84,11 @@ function Education() {
 
               <div className="resume-info-details-section">
                 <span className="resume-info-details-title">Past</span>
+                <span className="resume-info-details-chip collegelink-chip">
+                  CollegeLink
+                </span>
                 <span className="resume-info-details-value">
-                  Lead Full Stack Developer at CollegeLink Company (June 2021 –
-                  November 2022)
+                  Lead Full Stack Developer (June 2021 – November 2022)
                 </span>
                 <span className="resume-info-details-secondary-value">
                   <b>Day to Day Responsibilities:</b>
@@ -106,8 +111,11 @@ function Education() {
 
               <div className="resume-info-details-section">
                 <span className="resume-info-details-title">Past</span>
+                <span className="resume-info-details-chip kepyes-chip">
+                  KEPYES/GES
+                </span>
                 <span className="resume-info-details-value">
-                  Full Stack Developer at KEPYES/GES (Octomber 2020 – June 2021)
+                  Full Stack Developer (Octomber 2020 – June 2021)
                 </span>
                 <span className="resume-info-details-secondary-value">
                   <b>
@@ -124,7 +132,10 @@ function Education() {
                 </span>
               </div>
               <div className="resume-info-details-section">
-                <span className="resume-info-details-title">Now</span>
+                <span className="resume-info-details-title">Past</span>
+                <span className="resume-info-details-chip collegelink-chip">
+                  CollegeLink
+                </span>
                 <span className="resume-info-details-value">
                   Assistant for participants at CollegeLink Web Development
                   Academies
@@ -137,7 +148,10 @@ function Education() {
                 </span>
               </div>
               <div className="resume-info-details-section">
-                <span className="resume-info-details-title">Now</span>
+                <span className="resume-info-details-title">Past</span>
+                <span className="resume-info-details-chip collegelink-chip">
+                  CollegeLink
+                </span>
                 <span className="resume-info-details-value">
                   Full Stack Developer at CollegeLink Company (March 2018 –
                   September 2020)
