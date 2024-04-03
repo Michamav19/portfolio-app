@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1ef225f.chunk.css",
+    "main.css": "/static/css/main.a85aff34.chunk.css",
     "main.js": "/static/js/main.459de042.chunk.js",
     "main.js.map": "/static/js/main.459de042.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.550c5ae6.js",
@@ -10,7 +10,7 @@
     "static/js/2.1d1717a1.chunk.js.map": "/static/js/2.1d1717a1.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.921c199c.chunk.css.map": "/static/css/2.921c199c.chunk.css.map",
-    "static/css/main.e1ef225f.chunk.css.map": "/static/css/main.e1ef225f.chunk.css.map",
+    "static/css/main.a85aff34.chunk.css.map": "/static/css/main.a85aff34.chunk.css.map",
     "static/js/2.1d1717a1.chunk.js.LICENSE.txt": "/static/js/2.1d1717a1.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/Nunito-Regular.e4eb7682.ttf",
     "static/media/michalis-profile-photo.664a7a32.png": "/static/media/michalis-profile-photo.664a7a32.png",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.550c5ae6.js",
     "static/css/2.921c199c.chunk.css",
     "static/js/2.1d1717a1.chunk.js",
-    "static/css/main.e1ef225f.chunk.css",
+    "static/css/main.a85aff34.chunk.css",
     "static/js/main.459de042.chunk.js"
   ]
 }
