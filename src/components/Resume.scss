@@ -67,92 +67,83 @@ $resume-title-border-radius: 24px;
   width: 180px;
   height: 220px;
   margin-left: -51px;
-  border-radius: $resume-tabs-border-radius;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  border-radius: 18px;
   position: relative;
   z-index: -1;
-  padding: 0;
+  border: 2px solid #2d476e;
   box-shadow: 0px 0px 5px -2px black;
+  padding: 6px;
+  text-align: center;
 }
 
 .education-tab {
-  background-image: url("../images/education-img.jpeg");
+  // background-image: url("../images/education-img.jpeg");
 }
 
 .work-tab {
-  background-image: url("../images/work-img.png");
+  // background-image: url("../images/work-img.png");
 }
 
 .seminar-tab {
-  background-image: url("../images/seminar-img.png");
+  // background-image: url("../images/seminar-img.png");
 }
 
 .project-tab {
-  background-image: url("../images/project-img.jpeg");
+  // background-image: url("../images/project-img.jpeg");
 }
 
 .language-tab {
-  background-image: url("../images/language-img.jpg");
+  // background-image: url("../images/language-img.jpg");
 }
 
 .skills-tab {
-  background-image: url("../images/skills-img.jpg");
+  // background-image: url("../images/skills-img.jpg");
 }
 
 .resume-tab-container::before {
   width: 100%;
   height: 100%;
-  /* background: linear-gradient( rgba(255,255,255,0.0), rgba(0,0,0,0.9) ); */
   content: "";
   position: absolute;
   background-color: black;
   opacity: 0.6;
-  border-radius: $resume-title-border-radius;
+  border-radius: 16px;
   z-index: 0;
+  top: 0;
+  left: 0;
 }
-
-// .resume-tab:hover{
-//     transform: scale(1.1);
-// }
-
-// .resume-tab:hover{
-//     .resume-tab-container::before{
-//         opacity: 0.2;
-//     }
-// }
 
 .resume-tab-title {
   display: inline-block;
-  background-color: white;
-  color: black;
-  border-top-left-radius: $resume-title-border-radius;
-  border-bottom-right-radius: $resume-title-border-radius;
-  width: 50%;
-  height: 40px;
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
-}
-
-.tab-title {
-  padding-top: 13px;
-  display: block;
-  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #2d476e;
 }
 
 .resume-tab-view-btn {
-  width: 50%;
-  height: 30px;
-  display: inline-block;
+  display: block;
+  border: 2px solid #2d476e;
+  border-radius: 10px;
   text-align: center;
+  color: #2d476e;
+  margin-top: 25px;
+
+  &:hover {
+    background-color: #e1e1e1;
+  }
 }
 
-.view-btn {
+.resume-tab-container .resume-information-icon {
+  width: 100%;
+  font-size: 4em;
+  opacity: 1;
+  filter: none;
+  color: #2d476e;
+  float: none;
   display: block;
-  color: white;
-  font-size: 14px;
+  margin-top: 20px;
 }
 
 // Start: Carousel Resume Tabs CSS
@@ -165,7 +156,7 @@ $resume-title-border-radius: 24px;
 
   .slick-current .resume-tab {
     .resume-tab-container::before {
-      opacity: 0.2;
+      opacity: 0;
       z-index: -1;
     }
   }
@@ -304,10 +295,6 @@ $resume-title-border-radius: 24px;
     height: 180px;
   }
 
-  .resume-tab-title {
-    font-size: 10px;
-  }
-
   .view-btn {
     font-size: 13px;
   }
@@ -339,6 +326,9 @@ $resume-title-border-radius: 24px;
 }
 
 @media only screen and (max-width: 641px) {
+  .resume {
+    padding-top: 70px;
+  }
   .resume-tab-container {
     margin-left: 0;
   }
